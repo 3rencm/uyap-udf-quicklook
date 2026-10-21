@@ -1,0 +1,35 @@
+UYAP UDF ÖNİZLEME — KURULUM KILAVUZU
+=====================================
+
+Adım 1) "UYAP UDF Onizleme.app" dosyasını Applications (Uygulamalar) klasörüne
+         sürükleyin.
+
+Adım 2) Applications klasöründeki "UYAP UDF Onizleme" uygulamasını bir kez
+         çift tıklayarak açın.
+
+         Uygulama kendi eklentisini macOS'a kaydeder ve "Hazır!" yazan pencere
+         açılır. Bu pencereyi "Kapat" düğmesiyle kapatabilirsiniz.
+
+Adım 3) Finder'da herhangi bir .udf dosyasını tıklayın. Sağdaki önizleme
+         panelinde belge metni görüntülenir.
+
+         Panel görünmüyorsa: Görüntü ▸ Önizlemeyi Göster
+
+         Tam ekranda görmek için: dosyayı seçip Boşluk tuşuna basın.
+
+
+NOTLAR
+------
+• Terminal, komut satırı veya teknik bilgi gerekmez.
+• Önizleme; başlık, mahkeme adı, UYAP sürümü, imza durumu (İmzalı/İmzasız),
+  paragraf sayısı, taraf bilgileri (DAVACI/VEKİLİ/DAVALI/KONU) ve belgenin
+  biçimlendirilmiş metnini gösterir.
+• Uygulama yalnızca önizleme yapar; belgeyi düzenlemez veya değiştirmez.
+• Uygulamayı kaldırmak için: uygulamayı silin, ardından Terminal'e şunu
+  yazın:  pluginkit -r "/Applications/UYAP UDF Onizleme.app/Contents/PlugIns/UDFPreview.appex"
+  (Alternatif olarak: Uygulama penceresindeki "Kapat" düğmesine bastıktan
+  sonra "Finder'ı Yeniden Başlat" düğmesini kullanabilirsiniz.)
+• Önceki bir sürümden yükseltiyorsanız uygulama açılışta eski kaydı temizler ve
+  Finder'ı kendisi yeniden başlatır; Finder'ın açık pencereleri kapanabilir.
+
+Sürüm: 1.0.0

@@ -1,0 +1,20 @@
+# Swift derleme çıktıları
+.build/
+build/
+*.o
+*.dSYM/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode / SwiftPM
+.swiftpm/
+Packages/
+*.xcodeproj
+*.xcworkspace
+
+# Dağıtım paketi (Release'e ayrıca yüklenir)
+*.zip

@@ -25,7 +25,8 @@ Bu uygulama, belgeyi açmadan şunları gösterir:
 4. Bu penceredeki **Kapat** düğmesine basın.
 
 Artık Finder'da bir `.udf` dosyasını seçtiğinizde önizleme panelinde belge metni görünür.
-Önizleme paneli kapalıysa: **Görüntü ▸ Önizlemeyi Göster**.
+
+>Önizleme paneli kapalıysa: **Görüntü ▸ Önizlemeyi Göster**.
 
 ---
 
